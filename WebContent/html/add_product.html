@@ -1,0 +1,100 @@
+
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Sign up</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		
+		<link rel="stylesheet" href="../css/demo.css">
+		<link rel="stylesheet" href="../css/sky-forms.css">
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="../css/sky-forms-ie8.css">
+		<![endif]-->
+		
+		<!--[if lt IE 10]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="../js/jquery.placeholder.min.js"></script>
+		<![endif]-->		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="../js/sky-forms-ie8.js"></script>
+		<![endif]-->
+	</head>
+	<body class="bg-blue">
+		<div class="body body-s">
+		
+			<form action="../jsp/add_pro.jsp" class="sky-form" method="post" enctype="multipart/form-data">
+				<header>Add a new Product!</header>
+				
+				<fieldset>					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="name" placeholder="Product name">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="desc" placeholder="Description">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="price" placeholder="Price">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="quantity" placeholder="Quantity">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="category" placeholder="Category">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="tags" placeholder="Tags">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<section>
+						<label class="input">
+							<i class="icon-append icon-user"></i>
+							<input type="text" name="options" placeholder="Options">
+							<b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+						</label>
+					</section>
+					
+					<p>Upload Image : </p>
+				    <input type="file" name="file" value="Upload Image">
+					
+				</fieldset>
+					
+				<footer>
+					<button type="submit" class="button">Submit</button>
+				</footer>
+			</form>
+			
+		</div>
+	</body>
+</html>
